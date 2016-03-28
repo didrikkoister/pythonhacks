@@ -27,3 +27,14 @@ def test_pali2(a,correct):
         print "Correct: " + a
     else:
         print "Incorrect: " + a
+
+
+
+a="A but tuba"
+test_pali2(a,True)
+b="A car, a man, a maraca"
+test_pali2(b,True)
+c="Amen icy cinema"
+test_pali2(c,True)
+test_pali2("radar",True)
+test_pali2("didrik",False)

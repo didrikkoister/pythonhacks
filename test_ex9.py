@@ -1,8 +1,9 @@
 from ex9 import *
 
-print("Testing palindromes")
+
 
 def test_pali(a,correct):
+    print("Testing is_palindrome")
     ans = is_palindrome(a)
     if ans == correct:
         print "Correct: " + a
@@ -19,3 +20,10 @@ test_pali(c,True)
 test_pali("radar",True)
 test_pali("didrik",False)
 
+def test_pali2(a,correct):
+    print("Testing is_palindrome2")
+    ans = is_palindrome2(a)
+    if ans == correct:
+        print "Correct: " + a
+    else:
+        print "Incorrect: " + a

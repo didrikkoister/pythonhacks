@@ -4,7 +4,7 @@ def max_in_list(values):
         return False
     max = values[0]
     for i in values[1:]:
-        print "max is" +str(max)
+        #print "max is" +str(max)
         if i > max:
             max = i
     return max
